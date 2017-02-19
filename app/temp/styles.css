@@ -522,6 +522,10 @@ img {
 	height:auto;
 }
 
+a{
+	color:#d59541; /* defaul blue link color will be never used */
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -753,6 +757,10 @@ img {
   margin-bottom: 1.6em;
 }
 
+.headline__no-t-margin{
+  margin-top:0px;
+}
+
 /* mulit columns in a row */
 
 /* background: yellow; */
@@ -788,6 +796,17 @@ img {
   .row__medium-8--smaller {
     float: left;
     width: 65%;
+  }
+}
+
+.row__b-margin-until-medium{
+  margin-bottom: 25px;
+}
+
+@media(min-width: 530px) {
+
+  .row__b-margin-until-medium {
+    margin-bottom: 0px;
   }
 }
 

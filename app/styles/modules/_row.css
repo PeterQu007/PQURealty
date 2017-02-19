@@ -34,6 +34,14 @@
 		}
 	}
 
+	&__b-margin-until-medium{
+		margin-bottom: 25px;
+
+		@mixin atSmall{
+			margin-bottom: 0px;
+		}
+	}
+
 	&__gutters {
 		margin-right: -65px;
 	}

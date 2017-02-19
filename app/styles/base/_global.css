@@ -8,6 +8,10 @@ img {
 	height:auto;
 }
 
+a{
+	color:$mainOrange; /* defaul blue link color will be never used */
+}
+
 * {
 	box-sizing: border-box;
 }
