@@ -13,7 +13,7 @@
 		max-width: 976px;
 	}
 	
-	.wrapper{
+	& > .wrapper{
 		/* any wrapper nested in wrapper no need padding */
 		padding-left: 0;
 		padding-right: 0;
@@ -27,11 +27,21 @@
 		}
 	}
 
-	&__no-padding-unitl-medium{
-		padding-left:0px;
-		padding-right: 0px;
+	&__no-padding-until-medium{
+		padding-left:10px;
+		padding-right: 10px;
 
 		@mixin atMedium{
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+	}
+
+	&__no-padding-until-large{
+		padding-left:10px;
+		padding-right: 10px;
+
+		@mixin atLarge{
 			padding-left: 18px;
 			padding-right: 18px;
 		}
