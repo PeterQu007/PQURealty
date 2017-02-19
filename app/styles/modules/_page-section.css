@@ -1,6 +1,12 @@
+/* for section design pattern */
+
 .page-section{
 
-	padding: 4.5rem 0;
+	padding: 2rem 0;
+
+	@minin atMedium{
+		padding: 4.5rem 0;
+	}
 	
 	&__blue {
 		

@@ -1,2 +1,2 @@
-require('./gulp/tasks/styles');
-require('./gulp/tasks/watch');
+require('./gulp/tasks/styles'); //import styles.js
+require('./gulp/tasks/watch'); //import watch.js

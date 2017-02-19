@@ -1,10 +1,10 @@
 .large-hero {
 
-	border-bottom: 10px solid $mainBlue;
+	border-bottom: 10px solid $mainBlue; /* add 10px wide blue ribon on bottom */
 	position:relative;
 	
 	&__image{
-		display:block;
+		display:block; /* switch inline to block, to remove the gap on the bottom*/
 	}
 	
 	&__text-content {
@@ -19,15 +19,22 @@
 
 	&__title {
 		
-		font-weight: 500;
+		font-weight: 300;
 		color: $mainBlue;
-		font-size: 4.8rem;
+		font-size: 2.4rem;
 		margin: 0;
 		
-		/*@mixin atSmall{
-			font-size:2.9rem;
-		};*/
+		@mixin atSmall{
+			font-size:4.8rem;
+		}
+
+		@mixin atMedium{
+			font-size: 4.8rem;
+		}
 		
+		@mixin atLarge{
+			font-size: 4.8rem;
+		}
 		
 		
 	}
@@ -35,12 +42,12 @@
 	&__subtitle{
 		font-weight: 300;
 		color: $mainBlue;
-		font-size: 2.9rem;
+		font-size: 1.1rem;
 		margin: 0;
 		
-		/*@mixin atSmall{
+		@mixin atSmall{ 
 			font-size:2.9rem;
-		};*/
+		};
 		
 	
 	}

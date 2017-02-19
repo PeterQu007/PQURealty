@@ -4,7 +4,7 @@ body{
 }
 
 img {
-	width:auto;
+	width:100%; /* if use width:auto:: image will take all available width on the screen*/
 	height:auto;
 }
 
