@@ -544,6 +544,7 @@ a{
 
   .generic-content-container p {
     font-size: 1.125rem;
+    padding-left: 0px;
   }
 }
 
@@ -881,6 +882,7 @@ a{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .6rem;
+  width: auto;
 }
 
 @media(min-width: 530px) {
@@ -910,6 +912,7 @@ a{
   display: block;
   margin-left: auto;
   margin-right:auto;
+  width:auto;
 }
 
 @media(min-width: 530px) {
