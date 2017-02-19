@@ -517,6 +517,10 @@ body{
 	color: #333;
 }
 
+header img{
+	width:auto;
+}
+
 img {
 	width:100%; /* if use width:auto:: image will take all available width on the screen*/
 	height:auto;
@@ -748,7 +752,7 @@ a{
 @media(min-width: 1010px) {
 
   .page-section__no-b-padding-until-large {
-    padding-bottom: 4.5rem;
+    padding-bottom: .8rem;
   }
 }
 
@@ -1129,5 +1133,12 @@ a{
 
 .testimonial__last {
   margin-bottom: 0px;
+}
+
+@media(min-width: 800px) {
+
+  .testimonial__last {
+    margin-bottom: 98px;
+  }
 }
 

@@ -3,6 +3,10 @@ body{
 	color: #333;
 }
 
+header img{
+	width:auto;
+}
+
 img {
 	width:100%; /* if use width:auto:: image will take all available width on the screen*/
 	height:auto;

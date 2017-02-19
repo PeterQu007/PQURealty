@@ -37,5 +37,8 @@
 
 	&__last {
 		margin-bottom: 0px;
+		@mixin atMedium{
+			margin-bottom: 98px;
+		}
 	}
 }
