@@ -12,7 +12,7 @@ var hexRGBA=require('postcss-hexrgba'); //use virables for rgba();
 
 gulp.task("styles", function(){
 	console.log("---Update the destination stylesheet file:"); 
-	return gulp.src('./app/styles/styles.css')
+	return gulp.src('./app/assets/styles/styles.css')
 		
 		.pipe(postcss([cssImport, mixins, cssvars, cssnested, hexRGBA, autoprefixer]))
 		//gulp error handling
