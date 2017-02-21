@@ -26,16 +26,17 @@ gulp.task('createSprite',['beginClean'],function(){
 		.pipe(gulp.dest('./app/temp/sprite/'));
 });
 
+//copy new sprite.svg file to the target folder
 gulp.task('copySpriteGraphic', ['createSprite'], function(){
 	return gulp.src('./app/temp/sprite/css/**/*.svg')
 		.pipe(gulp.dest('./app/assets/images/sprites'));
 });
 
-
+//copy new sprite.css to the target folder as _sprite.css
 gulp.task('copySpriteCss', ['createSprite'], function(){
 	return gulp.src('./app/temp/sprite/css/sprite.css')
 		.pipe(rename('_sprite.css'))
-		.pipe(gulp.dest('./app/styles/modules'));
+		.pipe(gulp.dest('./app/assets/styles/modules'));
 });
 
 gulp.task('endClean', ['copySpriteGraphic','copySpriteCss'], function(){
