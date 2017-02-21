@@ -8,8 +8,12 @@
 
 	&__btn-container{
 		float: right;
+
 	}
 	
+	&__fa-padding{
+			padding-right:10px;
+		}
 
 	&__logo{
 		

@@ -1270,6 +1270,10 @@ a{
   float: right;
 }
 
+.site-header__fa-padding{
+  padding-right:10px;
+}
+
 .site-header__logo{
   position: absolute;
   background-color: #2f5572;
