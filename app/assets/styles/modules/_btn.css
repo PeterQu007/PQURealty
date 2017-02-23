@@ -10,6 +10,11 @@
 	&--orange {
 		background-color: $mainOrange;
 	}
+
+	&--blue {
+		background-color: rgba(9,18,83,.7);
+
+	}
 	
 	&--large {
 		font-size: 1rem;

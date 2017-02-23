@@ -1,3 +1,4 @@
+//webpack video : 818990 - 38 - The JS Module Pattern and _webpack_ @7:00
 
 module.exports={
 	
@@ -12,7 +13,7 @@ module.exports={
 			{
 				loader: 'babel-loader',
 				query: {
-					presets: [require.resolve("babel-preset-es2015")]
+					presets: ['es2015']
 				},
 				test: /\.js$/,
 				exclude: /node_modules/
