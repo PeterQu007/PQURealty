@@ -35,9 +35,11 @@
 		background-color: $lightBlue;
 
 		@mixin atLarge{
+			&.lazyloaded {
 			background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
 			background-size: cover;
 
+			}
 		}
 		
 		img {

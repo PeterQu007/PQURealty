@@ -8,6 +8,7 @@
   <meta name="keywords" content="Surrey Realtor. Surrey Home for Sale">
   <meta name="description" content="Your Surrey Realtor, help to buy in confidence and sell with top dollar. Professional, Integrity, Considerate">
   <link rel="stylesheet" href="temp/styles.css">
+  <script src="temp/scripts/Vendor.js"></script>
   <link rel="stylesheet" href="assets/lib/fontawesome/css/font-awesome.css">
   <link rel="stylesheet" href="assets/lib/fontawesome/css/font-awesome.min.css">
   <!-- Grab latest version of jQuery -->
@@ -161,7 +162,7 @@
   	</div>
   </div>
 
-  <div id="testimonials" class="page-section page-section__no-b-padding-until-large page-section__testimonials">
+  <div id="testimonials" class="page-section page-section__no-b-padding-until-large page-section__testimonials lazyload">
     <div class="wrapper wrapper__no-padding-until-large">
       <h2 class="section-title section-title__blue"><span class="icon icon--comment section-title__icon"></span>Real <strong>Testimonials</strong></h2>
 
@@ -169,7 +170,7 @@
         <div class="row__large-4">
           <div class="testimonial">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-jane.jpg">
+              <img class="lazyload" data-src="assets/images/testimonial-jane.jpg">
             </div>
             <h3 class="testimonial__title">Jane Doe</h3>
             <h4 class="testimonial__subtitle">Designer</h4>
@@ -179,7 +180,7 @@
         <div class="row__large-4">
           <div class="testimonial">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-john.jpg">
+              <img class="lazyload" data-src="assets/images/testimonial-john.jpg">
             </div>
             <h3 class="testimonial__title">Cooper Williams</h3>
             <h4 class="testimonial__subtitle">Engineer</h4>
@@ -189,7 +190,7 @@
         <div class="row__large-4">
           <div class="testimonial testimonial__last">
             <div class="testimonial__photo">
-              <img src="assets/images/testimonial-cat.jpg">
+              <img class="lazyload" data-src="assets/images/testimonial-cat.jpg">
             </div>
             <h3 class="testimonial__title">Brandon Chen</h3>
             <h4 class="testimonial__subtitle">Lawyer</h4>
@@ -226,6 +227,8 @@
     </div>
 
   </div>
+
   <script src="/temp/scripts/app.js"></script>
+
 </body>
 </html>
