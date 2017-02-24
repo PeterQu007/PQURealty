@@ -794,7 +794,7 @@ a{
 @media(min-width: 1010px) {
 
   .page-section__testimonials.lazyloaded {
-    background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+    background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
     background-size: cover;
   }
 }
@@ -1185,7 +1185,7 @@ a{
 /* Final Gulp automation template */
 
 .icon{
-		background-image: url('/assets/images/sprites/sprite-c683d71b.svg') ;
+		background-image: url('../../assets/images/sprites/sprite-c683d71b.svg') ;
 	}
 
 .icon--HomeEvalue{
