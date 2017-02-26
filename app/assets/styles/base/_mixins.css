@@ -13,12 +13,15 @@
 }
 
 @define-mixin atLarge{
-	@media(min-width: 1010px){
+	@media(min-width: 1210px){
 		@mixin-content;
 	}
 }
 
 @define-mixin clearfix{
+	&::before{
+		clear:both;
+	};
 	&::after{
 		content: ".";
 		display:block;

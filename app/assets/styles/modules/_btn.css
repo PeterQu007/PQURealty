@@ -6,6 +6,12 @@
 	text-decoration: none;
 	padding: 0.75rem 1.2rem;
 	display: inline-block;
+
+	&--no-padding{
+		background:transparent;
+		padding: 0 20px 0 0;
+		transform: translateY(12px);
+	}
 	
 	&--orange {
 		background-color: $mainOrange;
@@ -23,5 +29,11 @@
 		@mixin atSmall {
 			font-size: 1.25rem;
 		}
+	}
+
+	&--image{
+
+		padding: 0 0 0 0;
+		transform: translateY(18px);
 	}
 }

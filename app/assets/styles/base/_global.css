@@ -20,6 +20,10 @@ a{
 	box-sizing: border-box;
 }
 
+.wideSpace{
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
 /*
 .clearfix:before,
 .clearfix:after {

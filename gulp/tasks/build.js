@@ -37,7 +37,7 @@ gulp.task('copyGeneralFiles',['deleteDiskFolder'], function(){
 		.pipe(gulp.dest('./docs/assets/lib/fontawesome'));
 })
 
-gulp.task('optimizeImages', ['deleteDiskFolder'], function(){
+gulp.task('optimizeImages', ['deleteDiskFolder','icons'], function(){
 	return gulp.src(['./app/assets/images/**/*', '!./app/assets/images/icons', '!./app/assets/images/icons/**/*'])
 		.pipe(imagemin({
 			progressive: true,
@@ -47,7 +47,7 @@ gulp.task('optimizeImages', ['deleteDiskFolder'], function(){
 		.pipe(gulp.dest("./docs/assets/images"));
 });
 
-gulp.task('usemin', ['deleteDiskFolder'], function(){
+gulp.task('usemin', ['deleteDiskFolder','styles'], function(){
 	return gulp.src('./app/index.html')
 		.pipe(usemin({
 			css: [function() { return rev() }],

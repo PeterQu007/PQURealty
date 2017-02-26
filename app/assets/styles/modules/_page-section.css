@@ -2,10 +2,12 @@
 
 .page-section{
 
-	padding: 2rem 0;
+	margin: 2rem 0;
+
+	@mixin clearfix;
 
 	@mixin atMedium{
-		padding: 4.5rem 0;
+		margin: 4.5rem 0;
 	}
 
 	&__no-b-padding-until-medium{
@@ -45,5 +47,20 @@
 		img {
 			width: auto;
 		}
+	}
+
+	&__Professionism{
+		
+
+		@mixin atSmall{
+			&.lazyloaded {
+			background: url('../../assets/images/ChineseCharacterSquares-landscape.png') top center no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			background-origin: content-box; /* background image in the contect box */
+			}
+		}
+		
+		
 	}
 }

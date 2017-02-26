@@ -31,6 +31,7 @@
 		&__medium-8--smaller{
 			float:left;
 			width: 65%;
+			padding-right: 45px;
 		}
 	}
 
@@ -89,6 +90,10 @@
 
 	&__gutters > div {
 		padding-right: 45px;
+	}
+
+	&__gutters > div:last-child{
+		padding-right: 65px;
 	}
 
 	&__gutters-large > div{
